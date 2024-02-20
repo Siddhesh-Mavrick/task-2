@@ -1,17 +1,13 @@
-/* ==== GOOGLE FONT : INTER ==== */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-/* ==== GOOGLE FONT : POPPINS ==== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* ==== ROOT ==== */
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Inter', sans-serif;
 }
-/* ==== RESET HTML ==== */
+
 body{
     height: 100vh;
     width: 100%;
@@ -29,7 +25,6 @@ button{
     border: none;
 }
 
-/* ==== WRAPPER ==== */
 .wrapper{
     width: 100%;
     height: 100%;
@@ -486,3 +481,20 @@ nav{
     text-transform: capitalize;
     color: #eee;
 }
+
+.card_shoe:hover {
+    width: 210px;
+    height: 310px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Softer box shadow */
+}
+
+.card_shoe:hover .transparent_bg {
+    opacity: 1;
+}
+
+
+
+.add_to_cart:hover {
+    background-color: #444; /* Slightly darker background color on hover */
+}
+
